@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'AdilsonThanus'
+      ORG               = 'thanusoft'
       APP_NAME          = 'ralphbot-server'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
